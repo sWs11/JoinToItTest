@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'main_title' => 'Join To It Test Task',
+
+    'companies' => 'Companies',
+    'employees' => 'Employees',
+    'name' => 'Name',
+    'email' => 'Email',
+    'website' => 'Website',
+    'logo' => 'Logo',
+    'created' => 'Created',
+    'first_name' => 'First Name',
+    'last_name' => 'Last Name',
+    'company_name' => 'Company Name',
+    'phone' => 'Phone',
+    'actions' => 'Actions',
+    'add_company' => 'Add Company',
+    'add_employee' => 'Add Employee',
+    'edit_company' => 'Edit Company',
+    'edit_employee' => 'Edit Employee',
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'show_company' => 'Show Company',
+    'show_employee' => 'Show Employee',
+    'save' => 'Save',
+    'choose_file' => 'Choose file...',
+    'company_delete_answer' => 'Are you sure you want to delete this company?',
+    'employee_delete_answer' => 'Are you sure you want to delete this employee?',
+];
