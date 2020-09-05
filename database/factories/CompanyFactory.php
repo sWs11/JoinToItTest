@@ -20,7 +20,7 @@ $factory->define(Company::class, function (Faker $faker) {
     return [
         'name' => $faker->company,
         'email' => $faker->unique()->companyEmail,
-        'logo' => $faker->image(storage_path() . '/app/public/company_logos', 200, 200, null, false),
+        'logo' => 'storage/company_logos/' . $faker->image(storage_path() . '/app/public/company_logos', 200, 200, null, false),
         'website' => $faker->unique()->domainName,
     ];
 });
